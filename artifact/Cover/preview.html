@@ -1,0 +1,59 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Antro Latino Fiesta</title>
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--ground); color:var(--text); font-family:var(--font-info); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .band { position:absolute; top:0; left:0; width:960px; height:120px; display:block; }
+  .sun { fill:var(--sun); }
+  .jungle { fill:var(--jungle); }
+  .lime { fill:var(--lime); }
+  .pink { fill:var(--pink); }
+  .emerald { fill:var(--emerald); }
+  .blk { rx:var(--radius-none); }
+  .words { position:absolute; left:var(--space-3); right:var(--space-3); bottom:var(--space-3); }
+  .name { margin:0; font-family:var(--font-display); font-weight:400; font-size:64px; line-height:.95; color:var(--text); }
+  .tag { margin:var(--space-1) 0 0 2px; font-size:14px; line-height:20px; font-weight:900; font-style:italic; color:var(--text-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+<svg class="band" viewBox="0 0 960 120" width="960" height="120" aria-hidden="true">
+<!--
+  blocks      sun 384×120 (lead) · jungle 288×120 (lead) · lime 96×120 · pink 96×120 · emerald 96×120 — a third of 960×288, flush to the top and both sides
+  arrangement a strip of unequal bands, as the woven aguayo bands of the artwork; top-band skeleton because the name exceeds 440px at 64px
+  pattern     chevrons, from "loud, poster type" and the aguayo band itself: one row at a space-6 pitch, 20 units, each in another block's colour
+  scales      block sides in space-6 multiples; pitch space-6; corners radius-none
+-->
+<rect class="sun blk" x="0" y="0" width="384" height="120"/>
+<rect class="jungle blk" x="384" y="0" width="288" height="120"/>
+<rect class="lime blk" x="672" y="0" width="96" height="120"/>
+<rect class="pink blk" x="768" y="0" width="96" height="120"/>
+<rect class="emerald blk" x="864" y="0" width="96" height="120"/>
+<g class="pink">
+<path d="M0 48L24 72L48 48V72L24 96L0 72Z"/><path d="M48 48L72 72L96 48V72L72 96L48 72Z"/><path d="M96 48L120 72L144 48V72L120 96L96 72Z"/><path d="M144 48L168 72L192 48V72L168 96L144 72Z"/><path d="M192 48L216 72L240 48V72L216 96L192 72Z"/><path d="M240 48L264 72L288 48V72L264 96L240 72Z"/><path d="M288 48L312 72L336 48V72L312 96L288 72Z"/><path d="M336 48L360 72L384 48V72L360 96L336 72Z"/>
+</g>
+<g class="sun">
+<path d="M384 48L408 72L432 48V72L408 96L384 72Z"/><path d="M432 48L456 72L480 48V72L456 96L432 72Z"/><path d="M480 48L504 72L528 48V72L504 96L480 72Z"/><path d="M528 48L552 72L576 48V72L552 96L528 72Z"/><path d="M576 48L600 72L624 48V72L600 96L576 72Z"/><path d="M624 48L648 72L672 48V72L648 96L624 72Z"/>
+</g>
+<g class="emerald">
+<path d="M672 48L696 72L720 48V72L696 96L672 72Z"/><path d="M720 48L744 72L768 48V72L744 96L720 72Z"/>
+</g>
+<g class="sun">
+<path d="M768 48L792 72L816 48V72L792 96L768 72Z"/><path d="M816 48L840 72L864 48V72L840 96L816 72Z"/>
+</g>
+<g class="lime">
+<path d="M864 48L888 72L912 48V72L888 96L864 72Z"/><path d="M912 48L936 72L960 48V72L936 96L912 72Z"/>
+</g>
+</svg>
+<div class="words">
+<h1 class="name">Antro Latino Fiesta</h1>
+<p class="tag">Screen-print jungle layers for Latino Fiesta promos at Antro Brixton, in yellow and green.</p>
+</div>
+</div>
+</body>
+</html>
