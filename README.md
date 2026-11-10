@@ -21,7 +21,7 @@ on 7 Nov 2026 by Claude Opus 5.5.
 | `assets/masks/` | 8 paint masks keyed from the sheet |
 | `assets/textures/` | Grit and halftone textures |
 | `assets/cut-metadata.json` | Position of each part inside its cut-out, in pixels |
-| `docs/` | Project notes: the Latino Fiesta videos and their iterations, the Friday offer reels, the vector conversion of the sheet, the generated cutouts, the generator models (`docs/generator-models.md`) |
+| `docs/` | Project notes: the Latino Fiesta videos and their iterations, the Friday offer reels, the vector conversion of the sheet, the generated cutouts, the generator models (`docs/generator-models.md`), the sixteen reel variations of 10 Nov 2026 (`docs/reel-variations.md`) |
 
 ## Palettes
 Six palettes share one set of colours (`artifact/tokens.json`). `sol` (yellow ground), `selva` (green), `lima` (lime)
