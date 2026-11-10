@@ -24,6 +24,8 @@ the same matting method as the sheet layers. Each has a cutout in `assets/cutout
 | `35_bongos` | Bongos | Z-Image-Turbo |
 
 ## Method
+Full notes on the models, settings, prompts and seeds: `generator-models.md`.
+
 - Qwen-Image (Hugging Face Space, 20 steps) for `20` to `24`; Z-Image-Turbo (4-bit, run locally with mflux, 9 steps) for the rest.
 - Matte: 2× Lanczos upscale, BiRefNet, guided refinement, islands under 600 px dropped, edge colour decontaminated.
 - Sticker: 22 px cream border, the same as the sheet stickers.
